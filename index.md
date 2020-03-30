@@ -1,7 +1,7 @@
 # Projects
 
 
-## [Predicting Building Energy Use](https://github.com/sergatron/sergatron.github.io/blob/master/Predicting-Building-Energy-Use)
+## [Predicting Building Energy Use](https://sergatron.github.io/Predicting-Building-Energy-Use)
 #### Feb 2020 – Mar 2020
 Project descriptionThis competition aims to build counterfactual models to predict buildings' energy usage. A successful model should scale well and minimize the Root Mean Squared Log Error. Counterfactual models are estimates of energy usage before any improvements are made within the building. This estimate is then compared with the actual energy usage after the improvements to calculate energy usage and confirm that the improvements are in fact working.
 
