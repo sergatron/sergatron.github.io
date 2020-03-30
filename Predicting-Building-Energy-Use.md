@@ -117,3 +117,5 @@ Besides building models, we can try to improve the feature engineering portion o
 2. "ASHRAE - Great Energy Predictor III". Data Description. https://www.kaggle.com/c/ashrae-energy-prediction/data
 3. "Parameters Tuning - LightGBM". https://lightgbm.readthedocs.io/en/latest/Parameters-Tuning.html
 4. "Optmization in Accuracy". https://lightgbm.readthedocs.io/en/latest/Features.html#leaf-wise-best-first-tree-growth
+
+#### See this project on [GitHub](https://github.com/sergatron/ASHRAE---Great-Energy-Predictor-III)
