@@ -1,5 +1,4 @@
-# Main Page
-Portfolio [link](https://github.com/sergatron/Portfolio)
+# Projects
 
 
 ## [Building Energy Usage Model](https://github.com/sergatron/ASHRAE---Great-Energy-Predictor-III)
