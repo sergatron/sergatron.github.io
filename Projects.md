@@ -1,4 +1,4 @@
-# Projects
+# All Projects
 
 
 ## [Predicting Building Energy Use](https://sergatron.github.io/Predicting-Building-Energy-Use)
