@@ -18,12 +18,12 @@ The goal is to create a model which can predict a building's energy use with min
 ### Metrics
 The model will aim to minimize the **Root Mean Squared Log Error** (RMSLE). It is defined as 
 
-![](img/rmsle_metric.png)
+![](assets/img/rmsle_metric.png)
 
 
 where ***Xi*** are the predicted values and ***Yi*** are the Actual values. Logarithmic properties let us rewrite this as
 
-![](img/log_p_a.png)
+![](assets/img/log_p_a.png)
 
 Essentially, the RMSLE gives us a ratio between the predicted and actual values. On the other hand, RMSE gives us an absolute value between the predicted and actual values. For example, if the predicted value is 1000 and actual is 500, RMSLE would equate to ~0.6930, and RMSE would equate to 500. 
 
@@ -97,7 +97,7 @@ Tuned Hyper-parameters:
 
 According to the model, these are the most important predictors:
 
-![](img/best_params.png)
+![](assets/img/best_params.png)
 
 From the figure above, we can conclude that seasonality, in general, is an important predictor of a building's energy consumption. Seasonality includes variables 'month', 'day', 'hour', and 'air temperature'. One of the most important features is the `building_id` which implies that there is something about the building itself that is a great contributing factor to the energy usage. In other words, the variable `building_id` is a representative of a set of feature space. So, although we have data about the buildings, something still appears to be missing which would further explain the energy usage of that building. Perhaps more data is needed about the building itself to further explains its energy consumption.
 
