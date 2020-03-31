@@ -36,9 +36,9 @@
 -	Identifying areas of improvement and providing recommendations to management.
 
 # EDUCATION
-##### **B.S Mechanical Engineering**, *Hofstra University* May 2011
-##### **Introduction to Data Science**, *Springboard – Certificate* Jan 2018
-##### **Python 3 Programming**, *Coursera – Certificate* May 2019
-##### **Data Science Nanodegree**, *Udacity – Certificate* March 2020
+###### B.S Mechanical Engineering, *Hofstra University* May 2011
+###### Introduction to Data Science, *Springboard – Certificate* Jan 2018
+###### Python 3 Programming, *Coursera – Certificate* May 2019
+###### Data Science Nanodegree *Udacity – Certificate* March 2020
 
 
