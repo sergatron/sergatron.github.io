@@ -1,4 +1,3 @@
 theme: jekyll-theme-midnight
-title: Data Science Portfolio
-author: Sergey Mouzykin
-site.github.owner_url: "https://github.com/github"
+markdown: kramdown
+name: Sergey Mouzykin
