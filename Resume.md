@@ -1,10 +1,8 @@
 # Sergey Mouzykin
 
- - smouzykin@gmail.com
- - 631 521 1687
+ - smouzykin@gmail.com | 631-521-1687
  - New York, NY
- - [LinkedIn](https://www.linkedin.com/in/sergey-mouzykin-bb144778/)
- - [GitHub](https://github.com/sergatron)
+ - [LinkedIn](https://www.linkedin.com/in/sergey-mouzykin-bb144778/) | [GitHub](https://github.com/sergatron)
  
  
 # SKILLS
@@ -17,13 +15,13 @@
 
 # DATA SCIENCE PROJECTS
 
-### Disaster Response - [Project Link](HTTPS://GITHUB.COM/SERGATRON/DISASTER-RESPONSE-PROJECT)
+### Disaster Response | [Project Link](HTTPS://GITHUB.COM/SERGATRON/DISASTER-RESPONSE-PROJECT)
 ###### NOV 2019
 - Utilized frameworks such as NLTK and Scikit-Learn to perform ETL, build ML pipeline, and deploy ML model to a local web application. 
 - The ML pipeline processes 26,000 raw text messages using NLTK and Scikit-Learn to build a multioutput classification model. 
 - Maximized F1 score through feature engineering and parameter tuning.
 
-### Solar Array Cost Prediction - [Project Link](https://github.com/sergatron/projects/tree/master/solar_array)
+### Solar Array Cost Prediction | [Project Link](https://github.com/sergatron/projects/tree/master/solar_array) | [Medium Blog](https://medium.com/analytics-vidhya/solar-panel-array-what-does-it-cost-46aaa083502)
 ###### JULY 2019
 - Analysis revealed a trend of declining national average installation costs of about 30% since 2009 peak.
 - Predicted the cost of a residential solar panel array using a ML pipeline built using Scikit-Learn. 
@@ -38,8 +36,8 @@
 -	Identifying areas of improvement and providing recommendations to management.
 
 # EDUCATION
-|                        |                               |
-|------------------------|-------------------------------|
+|||
+|-|-|
 |**B.S Mechanical Engineering**, *Hofstra University* |May 2011|
 |**Introduction to Data Science**, *Springboard – Certificate* |Jan 2018|
 |**Python 3 Programming**, *Coursera – Certificate* |May 2019|
