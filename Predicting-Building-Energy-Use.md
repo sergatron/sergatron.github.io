@@ -1,6 +1,6 @@
 # Predicting Building's Energy Use
 
-## Project Definition
+### Project Definition
 
 Maintaining perfect indoor temperature in a skyscraper requires an extraordinary amount of energy which translates to money being spent to maintain those ideal conditions. Additionally, this energy expenditure may have negative impact on the environment. Fortunately, investments are being made to reduce cost and emissions. Buildings which install new and/or upgrade their existing equipment to more efficient ones can reduce energy consumption, cost, and environmental impact. However, how can these savings be measured? 
 
@@ -12,7 +12,6 @@ The provided data was collected over a three-year period from over 1,000 buildin
 
 ### Problem Statement
 The goal is to create a model which can predict a building's energy use with minimal error. The first step is to use exploratory data analysis (EDA) to understand the nature of all present variables (continuous and discrete) using statistical plots, descriptive and inferential statistics. This exploration will help locate missing values, outliers, and relationships between variables. Ideally, the knowledge gained in this section will be leveraged to build a machine learning model that minimizes prediction error. Removing noisy data is important no matter which ML algorithm is used. Two potential algorithms will be evaluated, LightBGM and XGBoost. Both are tree-based algorithms and should perform well on this large data set. 
-
 
 
 ### Metrics
@@ -36,12 +35,12 @@ Essentially, the RMSLE gives us a ratio between the predicted and actual values.
 The table above helps visualize the difference between the two metrics. RMSLE is a relative error between predicted and actual values. It gives a larger penalty when the actual value is smaller than predicted. This makes it more suitable for this project as it is better not to underestimate the energy usage of a building. If the model underestimates the energy usage, this may result in lower calculated energy savings due to the retrofit and may falsely imply that the improvements are not working.
 
 
-## Analysis
+# Analysis
 ### Data Exploration and Visualization
 Please refer to Jupyter Notebook [**EDA**](https://github.com/sergatron/ASHRAE---Great-Energy-Predictor-III/blob/master/EDA/eda.ipynb) for analysis and visualizations.
 
 
-## Methodology
+# Methodology
 ### Data Preprocessing
 There are three data sets provided for training in the form of a *csv* file, `train.csv`, `weather_train.csv`, and `building_metadata.csv`. All three files were inspected for missing values before merging together. Missing weather data was filled using aggregated data based on the location (site_id), month, and day of the missing value. Incorporating these variables insured a relatively accurate filling method as opposed to simply using median or mean of entire data to fill missing values. Building metadata also contained missing values in `floor_count` and `year_built` variables. However, `floor_count` seemed to be an uninformative variable compared to `square_feet` and therefore was removed. The total area of a building is a more informative variable than the amount of floors a building contains. The `year_built` variable contained too many missing values (over 60%) and was removed. 
 
@@ -66,7 +65,7 @@ The first model did not contain any additional features, outliers were not remov
 
 Accuracy is an important aspect of the model; however, it is also important to overcome overfitting. If the model is given an infinite amount of training data, then it will keep improving constantly. However, it is not the goal to continuously improve the training score. Minimizing the error on the test subset is the real goal. Therefore, the model needs regularization. Overfitting was overcome the adjusting the hyper-parameters of the model. [2] The hyper-parameters control the complexity and regularization of the model. As complexity of the model increases, regularization will add to the penalty (error) such that the model will try to capture the general trend and not the noise. Specific hyper-parameters will be discussed in the "Results" section. 
 
-## Results
+# Results
 ### Model Evaluation and Validation
 KFold cross-validation was used to validate the model's results. LightGBM was used to create the final model as it performed better than XGBoost, that is, it offered a lower error on the test subset with five-fold cross-validation. The best/lowest RMSLE achieved was 0.266 by the LightGBM model as opposed to XGBoost which achieved RMSLE of 0.478 and took much longer to train.
 
@@ -102,7 +101,7 @@ According to the model, these are the most important predictors:
 From the figure above, we can conclude that seasonality, in general, is an important predictor of a building's energy consumption. Seasonality includes variables 'month', 'day', 'hour', and 'air temperature'. One of the most important features is the `building_id` which implies that there is something about the building itself that is a great contributing factor to the energy usage. In other words, the variable `building_id` is a representative of a set of feature space. So, although we have data about the buildings, something still appears to be missing which would further explain the energy usage of that building. Perhaps more data is needed about the building itself to further explains its energy consumption.
 
 
-## Conclusion
+# Conclusion
 Reducing energy usage of a building is important for various reasons including financial and environmental impact. This is a practical problem to solve but also presents unique challenges. The resulting model is relatively accurate, but its results also seem to imply that more data is needed. As discussed earlier, `building_id` is an interesting predictor since it's simply an integer. Perhaps it may represent the address of the building and was encoded as an integer for privacy reasons. So, does the address make an important predictor in that case? Do the surrounding buildings affect the energy consumption? These are some of the questions that cannot be answered here but may be answered with additional data. 
 
 ### Further Work
