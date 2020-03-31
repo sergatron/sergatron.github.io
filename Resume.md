@@ -7,7 +7,7 @@
  - [GitHub](https://github.com/sergatron)
  
  
- # SKILLS
+# SKILLS
  
  - **Languages**: Python, R, SQL
  - **OS**: Windows, Linux (Ubuntu 18.04)
@@ -38,8 +38,8 @@
 -	Identifying areas of improvement and providing recommendations to management.
 
 # EDUCATION
-| | |
-|---|---|
+|                        |                               |
+|------------------------|-------------------------------|
 |**B.S Mechanical Engineering**, *Hofstra University* |May 2011|
 |**Introduction to Data Science**, *Springboard – Certificate* |Jan 2018|
 |**Python 3 Programming**, *Coursera – Certificate* |May 2019|
