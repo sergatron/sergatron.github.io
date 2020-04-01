@@ -1,9 +1,9 @@
 # Recommendations with IBM
 
-## Introduction
+### Introduction
 This project focuses on analyzing interactions between users and articles on the IBM Watson Studio platform. New article recommendations are made to users based on their interactions. Based on the data available, we can use various methods to make these recommendations. The methods used here are Rank Based, Collaborative Filtering, and Matrix Factorization. 
 
-## Process
+# Process
 ### Exploratory Data Analysis
 This initial step is used to explore the data and extract descriptive statistics about the interactions. Also, visuals are provided to gain insights into the data and interactions.
 
@@ -31,3 +31,5 @@ Perform Content Based recommendations using NLP methods; try other decomposition
 
 # Acknowledgements
 [Udacity's](https://www.udacity.com) Data Science Nanodegree program
+
+### See this project on [GitHub](https://github.com/sergatron/recommendations_with_IBM)
