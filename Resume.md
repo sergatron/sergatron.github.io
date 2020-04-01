@@ -2,15 +2,16 @@
 
 ##### smouzykin@gmail.com | 631-521-1687
 ##### New York, NY
-##### [LinkedIn](https://www.linkedin.com/in/sergey-mouzykin-bb144778/) | [GitHub](https://github.com/sergatron)
+##### [LinkedIn](https://www.linkedin.com/in/sergey-mouzykin-bb144778/) | [GitHub](https://github.com/sergatron) | [Portfolio](https://sergatron.github.io/)
  
  
 ## SKILLS
  
- - **Languages**: Python, R, SQL
+ - **Languages**: Python, R, SQL, HTML, CSS, JavaScript
  - **OS**: Windows, Linux (Ubuntu 18.04)
- - **Frameworks/Libraries**: Pandas, NumPy, SciPy, Statsmodels, Sci-kit Learn, NLTK, Matplotlib, Seaborn, Plotly, Flask
- - **Technical Skills**: Data Collection, Data Wrangling/Cleaning, Exploratory Data Analysis (EDA), Statistical Analysis, Regression, Classification, Clustering
+ - **Shell**: PowerShell, Bash
+ - **Frameworks/Libraries**: Pandas, NumPy, SciPy, Statsmodels, Sci-kit Learn, Keras, NLTK, Gensim, Matplotlib, Seaborn, Plotly, Flask
+ - **Technical Skills**: Data Collection, Data Wrangling/Cleaning, Exploratory Data Analysis (EDA), Hypothesis Testing, Statistical Analysis, Deep Learning, Machine Learning, Regression, Classification, Clustering, Version Control (Git)
  
 
 ## DATA SCIENCE PROJECTS
@@ -36,9 +37,9 @@
 -	Identifying areas of improvement and providing recommendations to management.
 
 ## EDUCATION
-##### B.S Mechanical Engineering, *Hofstra University* May 2011
-##### Introduction to Data Science, *Springboard – Certificate* Jan 2018
-##### Python 3 Programming, *Coursera – Certificate* May 2019
-##### Data Science Nanodegree *Udacity – Certificate* March 2020
+- B.S Mechanical Engineering, *Hofstra University*, May 2011
+- Introduction to Data Science, *Springboard – Certificate*, Jan 2018
+- Python 3 Programming, *Coursera – Certificate*, May 2019
+- Data Science Nanodegree, *Udacity – Certificate*, March 2020
 
 ### Download Resume [here](https://github.com/sergatron/Portfolio/raw/master/Sergey_Mouzykin_Resume.pdf)
