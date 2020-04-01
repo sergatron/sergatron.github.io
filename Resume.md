@@ -41,4 +41,4 @@
 ###### Python 3 Programming, *Coursera – Certificate* May 2019
 ###### Data Science Nanodegree *Udacity – Certificate* March 2020
 
-
+### Download Resume from Github [here](https://github.com/sergatron/Portfolio/raw/master/Sergey_Mouzykin_Resume.pdf)
