@@ -11,7 +11,7 @@ Compilation of personal and online courses projects. This portfolio, as a whole,
 This competition aims to build counterfactual models to predict buildings' energy usage. A successful model should scale well and minimize the *Root Mean Squared Log Error*. Counterfactual models are estimates of energy usage before any improvements are made within the building. This estimate is then compared with the actual energy usage after the improvements to calculate energy usage and confirm that the improvements are in fact working.
 
 
-## [Article Recommendations](https://github.com/sergatron/recommendations_with_IBM)
+## [Article Recommendations](https://sergatron.github.io/Recommendations-IBM)
 #### Jan 2020
 This project focuses on analyzing interactions between users and articles on the IBM Watson Studio platform. New article recommendations are made to users based on their interactions with articles. Based on the data available, we can use various methods to make these recommendations. The methods used here are **Rank Based**, **Collaborative Filtering**, and **Matrix Factorization**.
 
@@ -23,7 +23,7 @@ This project focuses on analyzing interactions between users and articles on the
  - Maximized *F1 score* through feature engineering and parameter tuning.
 
 
-## [Predicting the Cost of a Solar Array Installation](https://github.com/sergatron/projects/tree/master/solar_array)
+## [Predicting the Cost of a Solar Array Installation](https://github.com/sergatron/projects/tree/master/solar_array) | [Medium Blog](https://medium.com/analytics-vidhya/solar-panel-array-what-does-it-cost-46aaa083502)
 #### May 2019 – Jul 2019
  - Analysis revealed a trend of declining national average installation costs of about 30% since 2009 peak.
  - Predicted the cost of a residential solar panel array using a ML pipeline built using Scikit-Learn.
