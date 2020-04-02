@@ -35,6 +35,6 @@ This project focuses on analyzing interactions between users and articles on the
 Dashboards developing using **Flask**, **Plotly**, **Pandas** and **NumPy**. Using data acquired from [WorldBank](https://data.worldbank.org/), it is cleaned and transformed into usable form using Pandas framework. **Flask** is used to create a *HTML* template for visualizations using *Plotly*. 
 
 
-## [Face Recognition with OpenCV](https://github.com/sergatron/Coursera/tree/master/open_cv_project)
+## [Facial Recognition with OpenCV](https://github.com/sergatron/Coursera/tree/master/open_cv_project)
 ##### Apr 2019 - May 2019
 Scans over a newspaper article and images looking for occurrences of a specified keywords and detecting faces. **OpenCV** is used to detect faces, **tesseract** to perform optical character recognition and **PIL** to put together resulting images onto a new contact sheet.
