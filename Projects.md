@@ -16,7 +16,7 @@ This competition aims to build counterfactual models to predict buildings' energ
 This project focuses on analyzing interactions between users and articles on the IBM Watson Studio platform. New article recommendations are made to users based on their interactions with articles. Based on the data available, we can use various methods to make these recommendations. The methods used here are **Rank Based**, **Collaborative Filtering**, and **Matrix Factorization**.
 
 
-## [Disaster Response Pipeline](https://github.com/sergatron/disaster-response-project)
+## [Disaster Response Pipeline](https://github.com/sergatron/disaster-response-project) | [Web-App](https://crisis-response.herokuapp.com/)
 ##### Nov 2019
  - Utilized frameworks such as **NLTK** and **Scikit-Learn** to perform ETL, build ML pipeline, and deploy ML model to a local web application.
  - The ML pipeline processes 26,000 raw text messages using NLTK and Scikit-Learn to build a multioutput classification model.
