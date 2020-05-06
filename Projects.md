@@ -3,11 +3,11 @@ layout: default
 title: All Projects
 ---
 
-Compilation of personal and online courses projects. This portfolio, as a whole, aims to demonstrate proven experience in Data Science principals including obtaining/cleaning data, building *Extract, Transform, Load, (ETL)* pipelines, *Exploratory Data Analysis* (EDA), and building and validating *Machine Learning* models.
+Compilation of personal and online courses projects. This portfolio, as a whole, aims to demonstrate proven experience in Data Science principals including obtaining/cleaning data, building ***Extract, Transform, Load, (ETL)*** pipelines, ***Exploratory Data Analysis*** (EDA), and building and validating ***Machine Learning*** models.
 
 
 ## [Predicting Building Energy Use](https://sergatron.github.io/Predicting-Building-Energy-Use)
-#### Feb 2020 – Mar 2020
+##### Feb 2020 – Mar 2020
 This competition aims to build counterfactual models to predict buildings' energy usage. A successful model should scale well and minimize the *Root Mean Squared Log Error*. Counterfactual models are estimates of energy usage before any improvements are made within the building. This estimate is then compared with the actual energy usage after the improvements to calculate energy usage and confirm that the improvements are in fact working.
 
 
