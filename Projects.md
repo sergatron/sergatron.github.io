@@ -30,7 +30,7 @@ This project focuses on analyzing interactions between users and articles on the
  - Evaluated multiple regression models (**Ridge**, **RandomForest**, **GradientBoosting**) and optimized the pipeline to minimize the *RMSE* and *MAE*.
 
 
-## [Data Dashboards](https://github.com/sergatron/data-dashboard)
+## [Data Dashboard](https://github.com/sergatron/data-dashboard/tree/master/flask-web-app)
 ##### Oct 2019
 Dashboards developing using **Flask**, **Plotly**, **Pandas** and **NumPy**. Using data acquired from [WorldBank](https://data.worldbank.org/), it is cleaned and transformed into usable form using Pandas framework. **Flask** is used to create a *HTML* template for visualizations using *Plotly*. 
 
