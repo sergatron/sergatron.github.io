@@ -13,7 +13,7 @@
  - **Frameworks/Libraries**: Pandas, NumPy, SciPy, Sci-kit Learn, Matplotlib, Seaborn, Flask, Plotly, Dash, AgGrid
  - **Database Technologies**: KDB+/Q, Oracle SQL, MSSQL
 
- #### Soft Skills
+#### Soft Skills
  - Excellent customer service and relationship management.
  - Strong communication skills to effectively collaborate with clients and team members.
  - Problem-solving abilities to address technical issues and provide efficient solutions.
